@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { CurrentYear } from './components/CurrentYear/CurrentYear';
 
 export const App = () => {
 	return (
@@ -7,7 +8,7 @@ export const App = () => {
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>
-					Test it again
+					This is just a dummy text
 				</p>
 				<a
 					className="App-link"
@@ -15,8 +16,10 @@ export const App = () => {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Learn React
+					Learn React <br></br>
+					{CurrentYear}
 				</a>
+
 			</header>
 		</div>
 	);

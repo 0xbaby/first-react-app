@@ -1,0 +1,7 @@
+.heading {
+	font-size: 32px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: cyan;
+	box-shadow: 2px 2px 2px red;
+}
