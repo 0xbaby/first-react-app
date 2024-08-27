@@ -16,10 +16,12 @@ export const App = () => {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Learn React <br></br>
-					{CurrentYear}
+					Learn React
 				</a>
 
+				<br></br>
+
+				<CurrentYear />
 			</header>
 		</div>
 	);

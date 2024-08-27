@@ -3,7 +3,7 @@ import './CurrentYear.css';
 
 export const CurrentYear = () => {
 	const date = new Date();
-	const formattedDate = date.toLocaleDateString;
+	const formattedDate = date.getFullYear();
 
 	return (
 		<div className='header'>
