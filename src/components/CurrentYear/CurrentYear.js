@@ -6,8 +6,8 @@ export const CurrentYear = () => {
 	const formattedDate = date.getFullYear();
 
 	return (
-		<div className='header'>
+		<p className="heading">
 			{formattedDate}
-		</div>
+		</p>
 	);
 }
